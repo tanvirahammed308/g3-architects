@@ -398,7 +398,7 @@ footer {
 }
 /* **************************for mobile****************
  ***************************************************** */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 600px) {
   .header {
     background: rgba(255, 144, 14, 0.1);
     width: 375px;
@@ -523,7 +523,6 @@ footer {
     position: relative;
     left: -75px;
     bottom: 40px;
-    margin-bottom: ;
   }
   .btn-5 {
     width: 150px;
