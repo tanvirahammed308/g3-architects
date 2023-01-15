@@ -14,6 +14,7 @@ header {
 .nav-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding-top: 50px;
   padding-left: 70px;
   padding-right: 70px;
@@ -21,6 +22,7 @@ header {
 .nav-content {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 20px;
 }
 a {
@@ -32,6 +34,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 
   position: relative;
   left: 30%;
@@ -66,6 +69,7 @@ a {
   width: 70%;
   height: 60vh;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -81,6 +85,7 @@ a {
 }
 .feature {
   display: flex;
+  flex-wrap: wrap;
 }
 .feature-pic {
   display: grid;
@@ -97,6 +102,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   position: relative;
   left: 20%;
@@ -165,6 +171,7 @@ img {
 }
 .section-2 {
   display: flex;
+  flex-wrap: wrap;
   gap: 90px;
 }
 .section-2-description-title {
@@ -239,6 +246,7 @@ h2 {
 
 .section-4 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 140px;
@@ -307,6 +315,7 @@ h2 {
 *********************************************** */
 .section-extra {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -343,6 +352,7 @@ h2 {
 ******************************************************** */
 .sponsor {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -361,6 +371,7 @@ h2 {
 }
 .sponsor-pic-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 120px;
   margin-bottom: 30px;
@@ -384,4 +395,231 @@ footer {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 250px;
+}
+/* **************************for mobile****************
+ ***************************************************** */
+@media only screen and (max-width: 576px) {
+  .header {
+    background: rgba(255, 144, 14, 0.1);
+    width: 375px;
+  }
+
+  .nav-container {
+    flex-direction: column;
+    margin-left: -30px;
+  }
+  .nav-content {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 300px;
+    position: relative;
+    left: -18px;
+  }
+  .company-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    flex-wrap: wrap;
+
+    position: relative;
+    left: 8%;
+    bottom: 250px;
+
+    width: 250px;
+    height: 300px;
+  }
+  .description-title {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #131313;
+    margin-right: 30px;
+  }
+  .description-about {
+    text-align: justify;
+    color: #727272;
+  }
+  .btn {
+    width: 150px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: rgb(233, 164, 16);
+    border: 0;
+    border-radius: 5px;
+    color: aliceblue;
+  }
+  .banner-pic > img {
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 20px;
+    bottom: 270px;
+  }
+  .feature-pic {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    position: relative;
+    left: 100px;
+    margin-top: 60px;
+  }
+
+  .feature-text {
+    width: 400px;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    left: 10%;
+    margin-top: 20px;
+  }
+  .feature-details {
+    width: 200px;
+    height: 40px;
+
+    text-align: justify;
+    position: relative;
+    left: -95px;
+  }
+  .btn-2 {
+    width: 120px;
+    height: 25px;
+    margin-top: 100px;
+    background-color: rgb(233, 164, 16);
+    border: 0;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-right: 265px;
+  }
+  .section-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 90px;
+  }
+  .section-2-description {
+    width: 250px;
+    height: 832px;
+    position: relative;
+    left: -150px;
+
+    margin-top: -16px;
+  }
+  .section-2-img,
+  img {
+    width: 250px;
+    height: 350px;
+    position: relative;
+    left: -75px;
+    bottom: 40px;
+    margin-bottom: ;
+  }
+  .btn-5 {
+    width: 150px;
+    height: 5px;
+
+    background: #ff900e;
+    border: 0;
+    border-radius: 8px;
+
+    position: relative;
+    left: -15%;
+    bottom: 9%;
+    padding: 50px 20px;
+  }
+  .section-3-container {
+    width: 250px;
+    height: 100px;
+    position: relative;
+    left: 25px;
+  }
+  .section-4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    position: relative;
+    left: -30px;
+  }
+  .section-extra {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(
+        rgba(81, 184, 103, 0.664),
+        rgba(125, 179, 204, 0.459)
+      ),
+      url(./images/pic/home.jpg);
+    width: 250px;
+    height: 350px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    position: relative;
+    left: 25px;
+  }
+  .sponsor {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 24px;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    left: 20px;
+    top: -120px;
+  }
+  .sponsor-pic {
+    width: 200px;
+    height: 50px;
+  }
+  .sponsor-pic-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+
+    position: relative;
+    left: 120px;
+    top: -120px;
+  }
+  footer {
+    margin-top: 20px;
+    background: #fff4e7;
+    border-radius: 8px;
+    width: 520px;
+    height: 40px;
+    position: relative;
+    left: -150px;
+    margin-bottom: 20px;
+  }
+  .footer-end {
+    color: #424242;
+    font-size: 9.5px;
+    font-weight: 800;
+    position: relative;
+    left: -80px;
+  }
 }
