@@ -365,3 +365,23 @@ h2 {
   gap: 120px;
   margin-bottom: 30px;
 }
+/* *********************footer***************
+******************************************* */
+
+footer {
+  margin-top: 20px;
+  background: #fff4e7;
+  border-radius: 8px;
+  width: 1000px;
+  height: 50px;
+  position: relative;
+  left: 200px;
+  margin-bottom: 20px;
+}
+.footer-end {
+  color: #424242;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 250px;
+}
