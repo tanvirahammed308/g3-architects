@@ -339,3 +339,19 @@ h2 {
   font-weight: 500;
   color: rgb(30, 12, 192);
 }
+/* ***********************section 5**********************
+******************************************************** */
+.sponsor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 30px;
+}
+.sponsor-p {
+  font-size: 15px;
+  color: #727272;
+  margin-top: 5px;
+}
