@@ -6,7 +6,10 @@
 ******************************************** */
 header {
   background: rgba(255, 144, 14, 0.1);
-  height: 70%;
+  height: 880px;
+}
+.nav-title {
+  color: #131313;
 }
 .nav-container {
   display: flex;
@@ -32,6 +35,7 @@ a {
 
   position: relative;
   left: 30%;
+  bottom: 250px;
 
   width: 500px;
   height: 300px;
@@ -42,6 +46,8 @@ a {
   font-weight: 700;
   font-size: 35px;
   margin-bottom: 10px;
+  color: #131313;
+  margin-right: 30px;
 }
 .btn {
   width: 150px;
@@ -56,16 +62,16 @@ a {
   text-align: justify;
   color: #727272;
 }
-.banner-pic,
-img {
-  width: 90%;
+.banner-pic > img {
+  width: 70%;
   height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  left: 30px;
+  left: 200px;
+  bottom: 200px;
 }
 /* *****************************main***********
 ******************************************** */
@@ -131,4 +137,83 @@ img {
   border-radius: 5px;
   color: aliceblue;
   margin-right: 250px;
+}
+/* **************************2nd section*******************
+******************************************************** */
+.section-2-header {
+  margin-top: 80px;
+  margin-left: 170px;
+}
+.section-2-description {
+  width: 350px;
+  height: 650px;
+
+  margin-top: 30px;
+}
+
+.colorful-border {
+  width: 5px;
+  height: 60px;
+  background: #ff900e;
+  position: relative;
+  bottom: 97.78%;
+}
+.section-2-img,
+img {
+  width: 500px;
+  height: 700px;
+}
+.section-2 {
+  display: flex;
+  gap: 90px;
+}
+.section-2-description-title {
+  padding-left: 30px;
+  font-weight: 700;
+  font-size: 25px;
+}
+.p-1 {
+  color: #727272;
+  padding-top: 20px;
+}
+.h5-1 {
+  margin-top: 20px;
+  margin-left: 35px;
+  font-size: 17px;
+}
+.p-2 {
+  margin-top: 10px;
+  margin-left: 35px;
+  color: #727272;
+}
+.btn-5 {
+  width: 150px;
+  height: 5px;
+
+  background: #ff900e;
+  border: 0;
+  border-radius: 8px;
+
+  position: relative;
+  left: -8%;
+  bottom: 9%;
+  padding: 50px 20px;
+}
+.h2-2,
+h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 300px;
+  position: relative;
+  bottom: 25px;
+  left: 20px;
+}
+
+.span-2 {
+  font-size: 15px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 15px;
+  bottom: 15px;
 }
